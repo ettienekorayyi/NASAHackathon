@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "space hubble",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetHubbleIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me something about Edwin Hubble"
+                    ]
+                },
+                {
+                    "name": "GetMoonIntent",
+                    "slots": [],
+                    "samples": [
+                        "describe the surface of the moon",
+                        "tell me the physical characteristics of the moon"
+                    ]
+                },
+                {
+                    "name": "GetMarsIntent",
+                    "slots": [],
+                    "samples": [
+                        "water in Mars",
+                        "is there a water in Mars"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
